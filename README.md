@@ -18,10 +18,10 @@ For finding the LU decomposition of a matrix:
 Degine a package as "from scipy.linalg import lu_factor, lu_solve" and create the variable 'x' include the package in that variable
 ### Step 4:
 print the variable 'x'
+
 ## Program:
 (i) To find the L and U matrix
 ```
-
 Program to find the L and U matrix.
 Developed by: S.Sajetha
 RegisterNumber: 212223100049
@@ -32,11 +32,9 @@ A=np.array(eval(input()))
 P,L,U=lu(A)
 print(L)
 print(U)
-
 ```
 (ii) To find the LU Decomposition of a matrix
 ```
-
 Program to solve a matrix using LU decomposition.
 Developed by: S.Sajetha
 RegisterNumber: 212223100049
@@ -49,9 +47,7 @@ B=np.array(eval(input()))
 lu, piv = lu_factor(A)
 x = lu_solve((lu, piv), B)
 print(x)
-
 ```
-
 ## Output:
 (![alt text](image.png))
 ![alt text](image-1.png)
